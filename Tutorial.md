@@ -52,14 +52,5 @@ source devel/setup.bash
 roslaunch assignment1 driving.launch
 ```
 
-### Assignment2
-Launch the parking code and the simulator
-```terminal
-cd ~/kookmin_ws
-source devel/setup.bash
-roslaunch assignment2 parking.launch
-```
-
-
 
 
