@@ -45,7 +45,7 @@ Run the simulator
 cd ~/xytron_ws/src/xycar_sim_driving
 ./xycar3Dsimulator.x86_64
 ```
-Launch the driving code for assignment1
+Launch the driving code for xytron
 ```terminal
 cd ~/xytron_ws
 source devel/setup.bash
