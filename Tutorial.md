@@ -49,7 +49,7 @@ Launch the driving code for assignment1
 ```terminal
 cd ~/xytron_ws
 source devel/setup.bash
-roslaunch xytron driving.launch
+roslaunch assignment1 driving.launch
 ```
 
 
