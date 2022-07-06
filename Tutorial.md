@@ -24,8 +24,8 @@ pip2 install pillow==6.2.2
 ### Create workspace
 Create catkin_workspace and build for Kookmin_AutoCon repository.
 ```Terminal
-mkdir -p ~/kookmin_ws/src
-cd ~/kookmin_ws/src
+mkdir -p ~/xytron_ws/src
+cd ~/xytron_ws/src
 git clone https://github.com/choonghyun-park/lane_simulator_study.git .
 cd ..
 catkin_make
@@ -36,18 +36,18 @@ If your catkin_make complete, now you are ready to launch the code.
 ### Assignment1
 Launch the rosbridge
 ```terminal
-cd ~/kookmin_ws
+cd ~/xytron_ws
 source devel/setup.bash
 roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 Run the simulator
 ```terminal
-cd ~/kookmin_ws/src/xycar_sim_driving
+cd ~/xytron_ws/src/xycar_sim_driving
 ./xycar3Dsimulator.x86_64
 ```
 Launch the driving code for assignment1
 ```terminal
-cd ~/kookmin_ws
+cd ~/xytron_ws
 source devel/setup.bash
 roslaunch assignment1 driving.launch
 ```
