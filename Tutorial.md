@@ -32,8 +32,8 @@ catkin_make
 ```
 If your catkin_make complete, now you are ready to launch the code.
 
-## Run shortcuts
-### Assignment1
+## Launch simulator
+### assignment1
 Launch the rosbridge
 ```terminal
 cd ~/xytron_ws
@@ -49,7 +49,7 @@ Launch the driving code for assignment1
 ```terminal
 cd ~/xytron_ws
 source devel/setup.bash
-roslaunch xytron driving.launch
+roslaunch assignment1 driving.launch
 ```
 
 

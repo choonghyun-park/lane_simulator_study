@@ -15,5 +15,5 @@
 이를 계산해 차선을 벗어나지 않고 주행할 수 있는 조향각을 찾아내고,  
 모터제어 토픽을 시뮬레이터로 보내 차량이 차선을 벗어나지 않도록 운전하면 됩니다.  
 
-## 2. 개발환경 및 패키지 실행법
+## 2. 개발환경 설치 및 패키지 실행법
 Tutorial을 확인해주세요! [Tutorial](https://github.com/choonghyun-park/lane_simulator_study/blob/main/Tutorial.md)
