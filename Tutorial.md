@@ -32,8 +32,8 @@ catkin_make
 ```
 If your catkin_make complete, now you are ready to launch the code.
 
-## Run shortcuts
-### Assignment1
+## Launch simulator
+### xytron
 Launch the rosbridge
 ```terminal
 cd ~/xytron_ws
