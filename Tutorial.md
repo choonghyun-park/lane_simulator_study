@@ -26,7 +26,7 @@ Create catkin_workspace and build for Kookmin_AutoCon repository.
 ```Terminal
 mkdir -p ~/kookmin_ws/src
 cd ~/kookmin_ws/src
-git clone https://github.com/jhforstudy/2022_HEVEN_Kookmin_AutoCon.git .
+git clone https://github.com/choonghyun-park/lane_simulator_study.git .
 cd ..
 catkin_make
 ```
